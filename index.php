@@ -157,12 +157,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="about-main about1">
 				<div class="col-md-4 about-grid-w3ls">
 					<div class="about-sub-grid-w3ls">
-						<h4>lorem ipsum</h4>
-						<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis </p>
+						<h4>Strategy</h4>
+						<p>Facetwigram is the online entrepreneur’s marketplace, where
+all social media business meet. </p>
 					</div>
 					<div class="about-sub-grid-w3ls">
-						<h4>lorem ipsum</h4>
-						<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis </p>
+						<h4>Innovate</h4>
+						<p>We are the world’s number 1
+destination for social media business management.</p>
 					</div>
 				</div>
 				<div class="col-md-4 about-grid-w3ls1">
@@ -170,12 +172,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-4 about-grid-w3ls ab-right">
 					<div class="about-sub-grid-w3ls">
-						<h4>lorem ipsum</h4>
-						<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis </p>
+						<h4>Influencers</h4>
+						<p>Solving major influencer marketing problems SocialMedia.Market will create new opportunities for content monetization, community engagement and audience exposure. </p>
 					</div>
 					<div class="about-sub-grid-w3ls">
-						<h4>lorem ipsum</h4>
-						<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis </p>
+						<h4>Marketting Ecosystem</h4>
+						<p>New ecosystem, driven by blockchain technology and Social Media Token, will simplify marketing interaction between business and influencers.</p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -186,7 +188,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- services -->
 	<div class="section-w3ls services-w3ls" id="services">
 		<h3 class="title-agile about text-center">How It Works</h3>
-		<p class="about-p text-center">Sed congue elit malesuada nibh a varius odio vehicula aliquet. </p>
+		<p class="about-p text-center">Research shows us, that 92% of consumers are more likely to trust a brand that advertises using Influencer Marketing.</p>
 		<div class="container">
 			<div class="about-main">
 				<div class="col-md-3 col-sm-6  service-grids">
@@ -194,8 +196,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-check-square-o" aria-hidden="true"></span>
 					</div>
 					<div class="services-text">
-						<h4>what we do</h4>
-						<p>Donec libero dui, scelerisque ac augue id, tristique ullamcorper elit. Nam ultrices, adipiscing aliquet.</p>
+						<h4>FIND</h4>
+						<p>Create job post to tell us about your project. We'll quickly match you with the right freelancers</p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6  service-grids">
@@ -203,8 +205,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-pie-chart" aria-hidden="true"></span>
 					</div>
 					<div class="services-text">
-						<h4>our values</h4>
-						<p>Donec libero dui, scelerisque ac augue id, tristique ullamcorper elit. Nam ultrices, adipiscing aliquet.</p>
+						<h4>HIRE</h4>
+						<p>Browse profiles, reviews, and proposals then interview top candidates. Hire a favorite and begin your project.</p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6  service-grids">
@@ -212,8 +214,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-paper-plane-o" aria-hidden="true"></span>
 					</div>
 					<div class="services-text">
-						<h4>what we believe</h4>
-						<p>Donec libero dui, scelerisque ac augue id, tristique ullamcorper elit. Nam ultrices, adipiscing aliquet.</p>
+						<h4>WORK</h4>
+						<p>Use the Upwork platform to chat, share files, and collaborate from your desktop or on the go.</p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6  service-grids">
@@ -221,8 +223,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-trello" aria-hidden="true"></span>
 					</div>
 					<div class="services-text">
-						<h4>smart media</h4>
-						<p>Donec libero dui, scelerisque ac augue id, tristique ullamcorper elit. Nam ultrices, adipiscing aliquet.</p>
+						<h4>GET PAID</h4>
+						<p>Get paid on time, every time. Payment is transferred to you upon order completion.</p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -243,8 +245,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-users" aria-hidden="true"></span>
 					</div>
 					<div class="stats-right">
-						<h6>team</h6>
-						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='111073' data-delay='.5' data-increment="100">9570</div>
+						<h6>CLIENTS</h6>
+						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1001' data-delay='.5' data-increment="100">9570</div>
 
 					</div>
 				</div>
@@ -253,7 +255,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-shield" aria-hidden="true"></span>
 					</div>
 					<div class="stats-right">
-						<h6>industry</h6>
+						<h6>FREELENCERS</h6>
 						<div class='numscroller numscroller-big-bottom'  data-slno='1' data-min='0' data-max='780' data-delay='.5' data-increment="1">780</div>
 
 					</div>
@@ -264,8 +266,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-external-link" aria-hidden="true"></span>
 					</div>
 					<div class="stats-right">
-						<h6>agriculture</h6>
-						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='630' data-delay='.5' data-increment="1">630</div>
+						<h6>JOBS COMPLETED</h6>
+						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1630' data-delay='.5' data-increment="1">630</div>
 
 					</div>
 				</div>
@@ -274,8 +276,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-book" aria-hidden="true"></span>
 					</div>
 					<div class="stats-right">
-						<h6>others</h6>
-						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='623' data-delay='.5' data-increment="1">623</div>
+						<h6>AMOUNT PAID OUT</h6>
+						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='20623' data-delay='.5' data-increment="1">623</div>
 
 					</div>
 				</div>
@@ -766,8 +768,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //contact -->
 	<div class="agileits_w3layouts-map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13251.376806128725!2d151.2012371852675!3d-33.86790584050207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae401e8b983f%3A0x5017d681632ccc0!2sSydney+NSW+2000%2C+Australia!5e0!3m2!1sen!2sin!4v1492686664992"
-		 style="border:0" allowfullscreen></iframe>
+		<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13251.376806128725!2d151.2012371852675!3d-33.86790584050207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae401e8b983f%3A0x5017d681632ccc0!2sNairobi+NSW+2000%2C+Kenya!5e0!3m2!1sen!2sin!4v1492686664992"
+		 style="border:0" allowfullscreen></iframe-->
+		 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.761393479274!2d36.825691636098405!3d-1.2873237109627678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x19e8d4b9366d2aaa!2sElectricity+House!5e0!3m2!1sen!2ske!4v1519129745679" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		<div class="agileits-map">
 			<h5>get in touch</h5>
 			<div class="ftr-grid fg2 text-center">
@@ -776,7 +779,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-map-marker" aria-hidden="true"></span>
 					</div>
 					<div class="ftr-text">
-						<p>New South Wales 2000, Australia.</p>
+						<p>Electricity House</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -785,7 +788,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-phone" aria-hidden="true"></span>
 					</div>
 					<div class="ftr-text">
-						<p>+1 (512) 154 8176</p>
+						<p>+254 729 212 913</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -794,7 +797,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-envelope" aria-hidden="true"></span>
 					</div>
 					<div class="ftr-text">
-						<a href="mailto:info@example.com">info@example.com</a>
+						<a href="mailto:info@facetwitgram.com">info@facetwitgram.com</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -803,7 +806,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-globe" aria-hidden="true"></span>
 					</div>
 					<div class="ftr-text">
-						<a href="#"> www.reinforce.com</a>
+						<a href="#"> www.facetwitgram.com</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -888,17 +891,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<input type="password" class="form-control" name="password" required="" placeholder="password">						
 					</div>
 					<div class="form-group">
-						<label>Password</label>
-						<input type="password2" class="form-control" name="password" required="" placeholder="password">						
+						<label>Confirm Password</label>
+						<input type="password" class="form-control" name="password2" required="" placeholder="confirm password">						
 					</div>
 					<div class="form-group">
-						<label>Password</label>
-						<input type="password" class="form-control" name="password" required="" placeholder="password">						
+						<label>Telephone No</label>
+						<input type="text" class="form-control" name="tel" required="" placeholder="Telephone No">						
+					</div>
+					<div class="form-group">
+						<label>Account Type</label>
+						<select name="acc" class="form-control">
+							<?php
+							include('auth.php');
+							$roles=mysql_query("SELECT id,role from roletypes where id!=3");
+							while($r=mysql_fetch_array($roles)){?>
+							<option value="<?php echo $r[0]?>"> <?php echo $r[1]?> </option>
+							<?php }?>
+						</select>					
 					</div>
 					<div class="form-actions">
-						<button class="btn btn-danger" type="submit">Login</button>					
+						<button class="btn btn-danger" type="submit">Register</button>					
 					</div>
-					
+					</form>
 					</div>
 				</div>
 			</div>

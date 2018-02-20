@@ -1,11 +1,12 @@
 <?php
 include('header.php');
-$query="SELECT * from winner order by  id asc";
+$personid=$_SESSION['personid'];
+$query="SELECT *  from jobs where requester_id='$personid' order by  id asc";
 $result=mysql_query($query);
 ?>
   <div id="content-header">
-    <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="current">Winners Details</a> </div>
-    <h1>Winners Details</h1>
+    <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="current">Job Posts Details</a> </div>
+    <h1>Job Posts Details</h1>
   </div>
   <div class="container-fluid">
     <hr>
@@ -14,20 +15,19 @@ $result=mysql_query($query);
 
 <div class="widget-box">
           <div class="widget-title"> <span class="icon"><i class="icon-th"></i></span>
-            <h5>Winners Details</h5>
+            <h5>Job Posts Details</h5>
           </div>
           <div class="widget-content nopadding">
             <table class="table table-bordered data-table">
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>Name</th>
-                  <th>Tel</th>
-                  <th>National ID</th>
-                  <th>Campaign</th>
-                  <th>Prize</th>
-                  <th>Raffle Serial</th>
-                  <th>Dateadded</th>
+                  <th>Description</th>
+                  <th>Budget</th>
+                  <th>Requester</th>
+                  <th>Assignee</th>
+                  <th>Date</th>
+                  <th>Status</th>
                 </tr>
               </thead>
               <tbody>
@@ -56,7 +56,7 @@ $result=mysql_query($query);
     </div>
   </div>
 
-<?php include('footer.php');?>
+<?php// include('footer.php');?>
 </div>
 <!--Footer-part-->
 <!--end-Footer-part-->

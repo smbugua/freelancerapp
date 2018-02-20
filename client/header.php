@@ -93,13 +93,13 @@ echo <<<HeaderFunction
     <li><a href="grid.html"><i class="icon icon-fullscreen"></i> <span>Full width</span></a></li-->
     <li class="submenu"> <a href="#"><i class="icon icon-user"></i> <span>Jobs</span> <span class="label label-important"></span></a>
       <ul>
-        <li><a href="jobs.php">All Jobs</a></li>
         <li><a href="myjobs.php">My Job Lists</a></li>
+        <li><a href="addjobs.php">Add Job</a></li>
       </ul>
     </li>
     <li class="submenu"> <a href="#"><i class="icon icon-money"></i> <span>Payments Entries</span> <span class="label label-important"></span></a>
       <ul>
-        <li><a href="entries.php">My Payment Logs </a></li>
+        <li><a href="mypayments.php">My Payment Logs </a></li>
         <!--li><a href="recallls.php">Recalls</a></li-->
       </ul>
     </li>

@@ -1,6 +1,7 @@
 <?php
 include('header.php');
-$query="SELECT p.name as name from jobs order by  id asc";
+$personid=$_SESSION['personid'];
+$query="SELECT *  from jobs where requester_id='$personid' order by  id asc";
 $result=mysql_query($query);
 ?>
   <div id="content-header">
@@ -55,7 +56,7 @@ $result=mysql_query($query);
     </div>
   </div>
 
-<?php include('footer.php');?>
+<?php// include('footer.php');?>
 </div>
 <!--Footer-part-->
 <!--end-Footer-part-->

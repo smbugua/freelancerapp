@@ -1,7 +1,7 @@
 <?php
 include('header.php');
 $personid=$_SESSION['personid'];
-$jobsquery=mysql_query("SELECT j.budget as budget ,j.dateposted as dateposted ,p.name as personnanme  from jobs j inner join person p on p.id =j.requester_id order by j.id  DESC LIMIT 5");
+$jobsquery=mysql_query("SELECT j.title as title,j.budget as budget ,j.dateposted as dateposted ,p.name as personnanme  from jobs j inner join person p on p.id =j.requester_id order by j.id  DESC LIMIT 5");
 
 $recipts=mysql_query("SELECT * from jobproposal jp inner join jobs j on j.id=jp.jobid where j.requester_id='$personid' order by jp.id ASC LIMIT 5");
 ?>
@@ -30,7 +30,7 @@ $recipts=mysql_query("SELECT * from jobproposal jp inner join jobs j on j.id=jp.
             	<?php while($items=mysql_fetch_array($jobsquery)){?>
               <li>
                 <div class="user-thumb"> <img width="40" height="40" alt="User" src="img/demo/av1.jpg"> </div>
-                <div class="article-post"> <span class="user-info"> Customer Name : <?php echo $items['name']?> . Shop: <?php echo $items['shop']?></span>
+                <div class="article-post"> <span class="user-info"> Customer Name : <?php echo $items['name']?> . Job: <?php echo $items['title']?></span>
                   <p><a href="#"><?php echo $items['dateadded']?></a> </p>
                 </div>
               </li>
@@ -50,7 +50,7 @@ $recipts=mysql_query("SELECT * from jobproposal jp inner join jobs j on j.id=jp.
               <ul>
               	<?php while($it=mysql_fetch_array($recipts)){?>
                 <li class="clearfix">
-                  <div class="txt"> Shop Name : <?php //echo $it['id']?>  </div>
+                  <div class="txt"> Job Description : <?php //echo $it['id']?>  </div>
                 </li>
              <?php }?>
              <li>

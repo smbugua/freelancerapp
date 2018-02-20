@@ -878,30 +878,42 @@ destination for social media business management.</p>
 			<div class="modal-dialog modal-md">
 				<div class="modal-content">
 					<div class="modal-header">
-						<form action="signup.php" method="post">
+						<form action="signup.php?action=register" method="post">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 						<h2 class="modal-title">Join FaceTwitGram </h2>
 					</div>
-					<div class="modal-body">
+					<div class="modal-body">	
+					<div class="form-group">
+						<label>Fullnames</label>
+						<input type="text" class="form-control" name="name" required="" placeholder="Full Names">						
+					</div>
+					<div class="form-group">
+						<label>Username</label>
+						<input type="text" class="form-control" name="username" required="" placeholder="Username">						
+					</div>
 					<div class="form-group">
 						<label>Email</label>
 						<input type="email" class="form-control" name="email" required="" placeholder="Email">						
 					</div>
 					<div class="form-group">
+						<label>Telephone Number</label>
+						<input type="text" class="form-control" name="tel" required="" id="tel" placeholder="Enter Telephone Number">						
+					</div>
+					<div class="form-group">
 						<label>Password</label>
-						<input type="password" class="form-control" name="password" required="" placeholder="password">						
+						<input type="password" class="form-control" name="password" required="" id="pass" placeholder="password">						
+					</div>
+					<div class="form-group" id="alert">
+											
 					</div>
 					<div class="form-group">
 						<label>Confirm Password</label>
-						<input type="password" class="form-control" name="password2" required="" placeholder="confirm password">						
+						<input type="password" class="form-control" name="password2" required="" id="pass2" onkeyup="checkpass()" placeholder="confirm password">						
 					</div>
-					<div class="form-group">
-						<label>Telephone No</label>
-						<input type="text" class="form-control" name="tel" required="" placeholder="Telephone No">						
-					</div>
+					
 					<div class="form-group">
 						<label>Account Type</label>
-						<select name="acc" class="form-control">
+						<select name="role" class="form-control">
 							<?php
 							include('auth.php');
 							$roles=mysql_query("SELECT id,role from roletypes where id!=3");
@@ -923,6 +935,7 @@ destination for social media business management.</p>
 
 	<!-- js -->
 	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 	<!--/js-->
 	<script type="text/javascript" src="js/numscroller-1.0.js"></script>
 	<!-- Slider-JavaScript -->
@@ -958,6 +971,19 @@ destination for social media business management.</p>
 			});
 
 		});
+	</script>
+
+	<script type="text/javascript">
+		function checkpass(){
+			var a= document.getElementById('pass').value;
+			var b= document.getElementById('pass2').value;
+			if (a!=b) {
+				document.getElementById('alert').innerHTML="<span style='color: red;'>**Passwords Do Not Match!</span>";
+			}else if(a==b){
+				document.getElementById('alert').innerHTML="<span style='color: green;'>**Passwords Match!</span>";
+			}
+		}
+
 	</script>
 	<!-- //gallery -->
 	<script src="js/jquery.tools.min.js"></script>
@@ -1026,7 +1052,7 @@ destination for social media business management.</p>
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/bootstrap.js"></script>
+	
 
 
 </body>

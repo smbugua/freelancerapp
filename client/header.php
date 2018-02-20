@@ -208,7 +208,7 @@ else
 {
 echo <<< Home
     <script>
-    location.replace("../loginmodule/index.php");
+    location.replace("../index.php");
     </script>
 Home;
 }
@@ -217,7 +217,7 @@ else
 {
     echo <<< Home
     <script>
-    location.replace("../loginmodule/index.php");
+    location.replace("../index.php");
     </script>
 Home;
 }

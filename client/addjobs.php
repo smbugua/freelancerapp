@@ -16,17 +16,17 @@ $platforms=mysql_query("SELECT id,name FROM platforms order by id asc");
           <h5>Job Info</h5>
         </div>
         <div class="widget-content nopadding">
-          <form action="clientclass.php?action=addjob&&personid=<?php echo $personid ?>" method="get" class="form-horizontal">
+          <form action="clientclass.php?action=addjob&&personid=<?php echo $personid ?>" method="post" class="form-horizontal">
             <div class="control-group">
               <label class="control-label">Title</label>
               <div class="controls">
-                <input type="text" class="span11" placeholder="" />
+                <input type="text" class="span11" placeholder="Job Title" name="title" />
               </div>
             </div>
             <div class="control-group">
               <label class="control-label">Budget</label>
               <div class="controls">
-                <input type="text" class="span11" placeholder="Budget" />
+                <input type="text" class="span11" name="budget" placeholder="Budget" />
               </div>
             </div>
              <div class="control-group">

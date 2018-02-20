@@ -14,6 +14,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="Reinforce Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 	<script type="application/x-javascript">
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -57,7 +58,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3>t</h3>
 						<h3>y</h3>
 						<h4 class="title2-w3ls">we are innovation driven</h4>
-						<a href="" data-toggle="modal" data-target="#myModal" class="btn btn-success">Login</a>
+						<a href="" data-toggle="modal" data-target="#myModal" >Login</a>
 					</div>
 				</li>
 				<li>

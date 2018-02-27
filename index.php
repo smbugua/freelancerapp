@@ -14,16 +14,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="Reinforce Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-	<script type="application/x-javascript">
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
 	<!-- //for-mobile-apps -->
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!--gallery -->
@@ -937,8 +928,17 @@ destination for social media business management.</p>
 	<!-- //signup -->
 
 	<!-- js -->
-	<script src="js/jquery-2.2.3.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"> </script>
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
 	<!--/js-->
 	<script type="text/javascript" src="js/numscroller-1.0.js"></script>
 	<!-- Slider-JavaScript -->

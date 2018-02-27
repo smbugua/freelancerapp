@@ -846,11 +846,13 @@ destination for social media business management.</p>
 	</div>
 	<!-- login -->
 	<div class="tooltip-content">
+
 		<div class="modal fade features-modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
 			<div class="modal-dialog modal-md">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<form action="signin.php" method="post">
 						<h2 class="modal-title">Welcome to FaceTwitGram</h2>
 					</div>
 					<div class="modal-body">
@@ -869,6 +871,7 @@ destination for social media business management.</p>
 					</div>
 				</div>
 			</div>
+		</form>
 		</div>
 	</div>
 	<!-- //login -->

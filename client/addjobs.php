@@ -24,7 +24,7 @@ $platforms=mysql_query("SELECT id,name FROM platforms order by id asc");
               </div>
             </div>
             <div class="control-group">
-              <label class="control-label">Budget</label>
+              <label class="control-label">Budget KES: </label>
               <div class="controls">
                 <input type="text" class="span11" name="budget" placeholder="Budget" />
               </div>

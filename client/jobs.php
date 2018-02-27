@@ -1,7 +1,7 @@
 <?php
 include('header.php');
 $personid=$_SESSION['personid'];
-$query="SELECT *  from jobs where requester_id='$personid' order by  id asc";
+$query="SELECT j.title as title ,j.description as description,j.budget as budget,p.name as cname ,  from jobs where requester_id='$personid' order by  id asc";
 $result=mysql_query($query);
 ?>
   <div id="content-header">
@@ -22,11 +22,11 @@ $result=mysql_query($query);
               <thead>
                 <tr>
                   <th>#</th>
+                  <th>Title</th>
                   <th>Description</th>
                   <th>Budget</th>
-                  <th>Requester</th>
                   <th>Assignee</th>
-                  <th>Date</th>
+                  <th>Date Posted</th>
                   <th>Status</th>
                 </tr>
               </thead>
@@ -39,13 +39,12 @@ $result=mysql_query($query);
                 $no++;
                 ?>
                   <td><?php echo $no?></td>
-                  <td><?php echo $row['name']?></td>
-                  <td><?php echo $row['tel']?></td>
-                  <td><?php echo $row['idno']?></td>
-                  <td><?php echo $row['campaign']?></td>
-                  <td><?php echo $row['prize']?></td>
-                  <td><?php echo $row['raffleno']?></td>
-                  <td><?php echo $row['datedrawn']?></td>
+                  <td><?php echo $row['title']?></td>
+                  <td><?php echo $row['description']?></td>
+                  <td><?php echo $row['budget']?></td>
+                  <td><?php echo $row['cname']?></td>
+                  <td><?php echo $row['assignedto']?></td>
+                  <td><?php echo $row['status']?></td>
                 </tr>
                 <?php }?>
               </tbody>
